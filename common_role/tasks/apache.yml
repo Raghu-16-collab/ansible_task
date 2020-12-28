@@ -1,0 +1,3 @@
+---
+- name: installing apache
+  apt: name=httpd state=present

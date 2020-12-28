@@ -1,0 +1,8 @@
+---
+- name: include roles and run the playbook
+  hosts: production
+  remote_user: root
+  become: yes
+
+  roles:
+  - common
